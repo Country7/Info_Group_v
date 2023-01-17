@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Digital-7 Mono Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Digital-7 Mono Mono'), 
+       url('../../fonts/digital-7-mono-cufonfonts-webfont/digital-7 (mono).woff') 
+       format('woff');
+  }
+
+#clock {
+  font-family: "Digital-7 Mono Mono";
+  transform: scale(.8);
+  display: flex;
+}
+
+.time {
+  color: black;
+  font-size: 70px;
+  position: relative;
+  margin-top: -15px;
+  margin-right: -20px;
+}
+
+.amPm {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 9px;
+  color: black;
+  font-size: 50px;
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes shadowFade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+
+.blink {
+  animation: blinking .5s infinite
+}

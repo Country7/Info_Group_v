@@ -1,0 +1,1279 @@
+{
+  "sourcedata": {
+    "dateH": "2022-12-19",
+    "timeH": "09:00",
+    "duration": "00-24:00"
+  },
+  "sections": [
+    {
+      "id": "01",
+      "title": "Документы поступающие от секретаря, представляемые секретарю",
+      "alias": "Документы поступающие от секретаря, представляемые секретарю"
+    },
+    {
+      "id": "02",
+      "title": "Работа с группами центра",
+      "alias": "Работа с группами центра"
+    },
+    {
+      "id": "03",
+      "title": "Работа с органами контрагентов",
+      "alias": "Работа с органами контрагентов"
+    },
+    {
+      "id": "04",
+      "title": "Резерв",
+      "alias": "Резерв"
+    }
+  ],
+  "counteragents": [
+    {
+      "id": "01",
+      "key": "gs",
+      "title": "Секретарь Организации",
+      "alias": "Секретарь Организации",
+      "src": "./img/gs.png"
+    },
+    {
+      "id": "02",
+      "key": "nsh",
+      "title": "Начальник штаба",
+      "alias": "Начальник штаба",
+      "src": "./img/nosh.png"
+    },
+    {
+      "id": "03",
+      "key": "pz",
+      "title": "Первый заместитель начальника",
+      "alias": "Первый зам. нач.",
+      "src": "./img/sh.png"
+    },
+    {
+      "id": "04",
+      "key": "ns",
+      "title": "Начальник секретариата, коменд",
+      "alias": "Нач. с-та ОШ, коменд.",
+      "src": "./img/sec.png"
+    },
+    {
+      "id": "11",
+      "key": "am",
+      "title": "Республика Севания",
+      "alias": "Республика Севания",
+      "src": "./img/am.png"
+    },
+    {
+      "id": "12",
+      "key": "by",
+      "title": "Республика Полесье",
+      "alias": "Республика Полесье",
+      "src": "./img/by.png"
+    },
+    {
+      "id": "13",
+      "key": "kz",
+      "title": "Республика Астания",
+      "alias": "Республика Астания",
+      "src": "./img/kz.png"
+    },
+    {
+      "id": "14",
+      "key": "kg",
+      "title": "Республика Кызылстан",
+      "alias": "Республика Кызылстан",
+      "src": "./img/kg.png"
+    },
+    {
+      "id": "15",
+      "key": "ru",
+      "title": "Северная Федерация",
+      "alias": "Северная Федерация",
+      "src": "./img/ru.png"
+    },
+    {
+      "id": "16",
+      "key": "tj",
+      "title": "Республика Туран",
+      "alias": "Республика Туран",
+      "src": "./img/tj.png"
+    },
+    {
+      "id": "17",
+      "title": "Оперативная группа пункта управления принимающего контрагента, уполномоченного на взаимодействие",
+      "alias": "Оп. гр. ПУ ПК",
+      "key": "",
+      "src": "./img/sh.png"
+    },
+    {
+      "id": "18",
+      "key": "pu",
+      "title": "Оперативные группы пунктов управления уполномоченных органов",
+      "alias": "Оп. гр. ПУ УО",
+      "src": "./img/sh.png"
+    },
+    {
+      "id": "19",
+      "key": "gsh",
+      "title": "Штабы органов контрагентов",
+      "alias": "Штабы органов к-агентов",
+      "src": "./img/sh.png"
+    },
+    {
+      "id": "21",
+      "key": "or",
+      "title": "Организация",
+      "alias": "Организация",
+      "src": "./img/or.png"
+    },
+    {
+      "id": "22",
+      "key": "sh",
+      "title": "Штаб",
+      "alias": "Штаб",
+      "src": "./img/sh.png"
+    },
+    {
+      "id": "23",
+      "key": "ck",
+      "title": "Центр",
+      "alias": "Центр",
+      "src": "./img/ckr.png"
+    },
+    {
+      "id": "41",
+      "title": "Группа руководства",
+      "alias": "руппа руководства",
+      "key": "",
+      "src": "./img/ckr.png"
+    },
+    {
+      "id": "42",
+      "title": "Группа оперативных дежурных",
+      "alias": "Группа ОД",
+      "key": "",
+      "src": "./img/od.png"
+    },
+    {
+      "id": "43",
+      "title": "Группа подготовки проектов решений органов и их согласования с контрагентами",
+      "alias": "Группа ППРО и ИСсК",
+      "key": "",
+      "src": "./img/ckr.png"
+    },
+    {
+      "id": "44",
+      "title": "Группа подготовки предложений по применению сил и средств",
+      "alias": "Группа ПП по ПСС",
+      "key": "",
+      "src": "./img/ckr.png"
+    },
+    {
+      "id": "45",
+      "title": "Группа сбора, анализа и оценки обстановки",
+      "alias": "Группа СА и ОО",
+      "key": "",
+      "src": "./img/ckr.png"
+    },
+    {
+      "id": "46",
+      "title": "Группа подготовки предложений по первоочередным мерам предотвращения ситуации",
+      "alias": "Группа ПП по ПМ ПС",
+      "key": "",
+      "src": "./img/ckr.png"
+    },
+    {
+      "id": "47",
+      "title": "Группа выработки предложений по противодействию вызовам и угрозам",
+      "alias": "Группа ВП по ПВУ",
+      "key": "",
+      "src": "./img/ckr.png"
+    },
+    {
+      "id": "48",
+      "title": "Группа подготовки предложений по организации обеспечения и обеспечения",
+      "alias": "Группа ПП по ООиО",
+      "key": "",
+      "src": "./img/ckr.png"
+    },
+    {
+      "id": "49",
+      "title": "Группа подготовки предложений по оказанию технической помощи",
+      "alias": "Группа ПП по ОП",
+      "key": "",
+      "src": "./img/ckr.png"
+    },
+    {
+      "id": "50",
+      "title": "Группа финансового обеспечения",
+      "alias": "Группа ФО",
+      "key": "",
+      "src": "./img/ckr.png"
+    },
+    {
+      "id": "51",
+      "title": "Группа информации",
+      "alias": "Группа инф.",
+      "key": "",
+      "src": "./img/ckr.png"
+    }
+  ],
+  "documents": [
+    {
+      "id": "03",
+      "eventId": "01",
+      "sectionsId": "01",
+      "receivedTime": [
+        {
+          "ctragtId": "01",
+          "received": "2022-12-19T09:05",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "23",
+          "delivery": "2022-12-19T09:05",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Информация об обострении зоне ответственности, Распоряжение (указание) секретаря о переводе штаба и секретариата на усиленный режим работы и развертывании усиленной дежурной смены",
+      "alias": "Информация об обострении, Распоряжение (указание) секретаря ...",
+      "type": "входящий",
+      "start": "00:00",
+      "end": "00:20",
+      "completed": true,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "04",
+      "eventId": "01",
+      "sectionsId": "03",
+      "receivedTime": [
+        {
+          "ctragtId": "42",
+          "received": "2022-12-19T09:15",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "11",
+          "delivery": "2022-12-19T09:16",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "12",
+          "delivery": "2022-12-19T09:16",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "13",
+          "delivery": "2022-12-19T09:16",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "14",
+          "delivery": "2022-12-19T09:16",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "15",
+          "delivery": "2022-12-19T09:16",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "16",
+          "delivery": "2022-12-19T09:16",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Информация об обострении зоне ответственности, Распоряжение (указание) секретаря о переводе штаба и секретариата на усиленный режим работы и развертывании усиленной дежурной смены",
+      "alias": "Информация об обострении, Распоряжение (указание) секретаря ...",
+      "type": "входящий",
+      "start": "00:00",
+      "end": "00:20",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "05",
+      "eventId": "01",
+      "sectionsId": "03",
+      "receivedTime": [
+        {
+          "ctragtId": "42",
+          "received": "2022-12-19T09:53",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "11",
+          "delivery": "2022-12-19T09:55",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "12",
+          "delivery": "2022-12-19T09:55",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "13",
+          "delivery": "2022-12-19T09:55",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "14",
+          "delivery": "2022-12-19T09:55",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "15",
+          "delivery": "2022-12-19T09:55",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "16",
+          "delivery": "2022-12-19T09:55",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Информационная справка об обострении обстановки",
+      "alias": "Информационная справка об обострении обстановки ...",
+      "type": "исходящий",
+      "start": "00:00",
+      "end": "01:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "06",
+      "eventId": "01",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "42",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Информационная справка об обострении обстановки",
+      "alias": "Информационная справка об обострении обстановки ...",
+      "type": "внутренний",
+      "start": "00:00",
+      "end": "01:30",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "07",
+      "eventId": "01",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "42",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Сведения (предварительные) о составе контрагентов, выделяемых в состав сил",
+      "alias": "Сведения (предварительные) о составе сил ...",
+      "type": "внутренний",
+      "start": "01:00",
+      "end": "04:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "10",
+      "eventId": "01",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "04",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Проект приказа о переводе штаба на усиленный режим работы и организации работы Центра",
+      "alias": "Проект приказа о переводе на усиленный режим работы ...",
+      "type": "внутренний",
+      "start": "00:20",
+      "end": "04:30",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "13",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "43",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Проект Перечня разрабатываемых проектов документов (проектов решений органов)",
+      "alias": "Проект Перечня разрабатываемых проектов документов ...",
+      "type": "внутренний",
+      "start": "05:00",
+      "end": "06:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "14",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "44",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Расчет времени на организацию работы Центра",
+      "alias": "Расчет времени на организацию работы Центра ...",
+      "type": "внутренний",
+      "start": "05:00",
+      "end": "06:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "15",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "45",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Доклад выводов из анализа обстановки в регионах и районе ситуации",
+      "alias": "Доклад выводов из анализа обстановки ...",
+      "type": "внутренний",
+      "start": "06:00",
+      "end": "06:15",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "16",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "17",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Доклад о сложившейся обстановке в районе ситуации, потребных объемах оказания помощи",
+      "alias": "Доклад об обстановке и объемах помощи ...",
+      "type": "внутренний",
+      "start": "06:15",
+      "end": "07:30",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "17",
+      "eventId": "02",
+      "sectionsId": "03",
+      "receivedTime": [
+        {
+          "ctragtId": "11",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "12",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "13",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "14",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "15",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "16",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Сведения о составе контрагентов, выделяемых в состав сил, и их возможностях, а также возможностям по оказанию помощи",
+      "alias": "Сведения о составе и возможностях ...",
+      "type": "входящий",
+      "start": "06:00",
+      "end": "07:30",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "18",
+      "eventId": "02",
+      "sectionsId": "03",
+      "receivedTime": [
+        {
+          "ctragtId": "11",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "12",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "13",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "14",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "15",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "16",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Сведения о составе, укомплектованности контрагентов",
+      "alias": "Сведения о составе, укомплектованности контрагентов ...",
+      "type": "входящий",
+      "start": "06:00",
+      "end": "24:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "19",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "46",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Предложения по первоочередным мерам (разного характера) для предотвращения (урегулирования) ситуации",
+      "alias": "Предложения по первоочередным мерам для предотвращения ...",
+      "type": "внутренний",
+      "start": "20:00",
+      "end": "22:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "20",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "47",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Предложения по противодействию вызовам и угрозам, и обеспечению безопасности",
+      "alias": "Предложения по противодействию вызовам и угрозам ...",
+      "type": "внутренний",
+      "start": "20:00",
+      "end": "22:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "21",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "44",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Предложения по составу, срокам, структуре, штату, кандидатуре",
+      "alias": "Предложения по составу, срокам, структуре, штату, кандидатуре ...",
+      "type": "внутренний",
+      "start": "20:00",
+      "end": "22:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "22",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "48",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Предложения по организации разного обеспечения",
+      "alias": "Предложения по организации разного обеспечения ...",
+      "type": "внутренний",
+      "start": "20:00",
+      "end": "22:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "23",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "49",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Предложения в проекты решений органов по оказанию технической помощи",
+      "alias": "Предложения по оказанию технической помощи ...",
+      "type": "внутренний",
+      "start": "20:00",
+      "end": "22:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "24",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "50",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Предложения по финансовому обеспечению мероприятий по формированию и функционированию",
+      "alias": "Предложения по финансовому обеспечению мероприятий ...",
+      "type": "внутренний",
+      "start": "20:00",
+      "end": "22:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "25",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "45",
+          "received": "",
+          "executed": [
+            {
+              "period": "2022-12-19T08:00=2022-12-19T18:00",
+              "time": ""
+            }
+          ],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [
+            {
+              "period": "2022-12-19T08:00=2022-12-19T18:00",
+              "time": ""
+            }
+          ],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [
+            {
+              "period": "2022-12-19T08:00=2022-12-19T18:00",
+              "time": ""
+            }
+          ],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Информационно-аналитическая справка о текущем состоянии обстановки",
+      "alias": "Информационно-аналитическая справка о текущем состоянии ...",
+      "type": "внутренний",
+      "start": "",
+      "end": "",
+      "everydayTimePresents": [
+        "08:00",
+        "18:00"
+      ],
+      "completed": false,
+      "everydayCurrentPeriod": "2022-12-19T08:00=2022-12-19T18:00"
+    },
+    {
+      "id": "26",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "46",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Проекты решений органов по первоочередным мерам (различного характера) для предотвращения ситуации",
+      "alias": "Проекты решений органов по первоочередным мерам ...",
+      "type": "внутренний",
+      "start": "22:00",
+      "end": "24:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "27",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "47",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Проекты решений органов по противодействию вызовам и угрозам, и обеспечению безопасности",
+      "alias": "Проекты решений органов по противодействию вызовам и угрозам ...",
+      "type": "внутренний",
+      "start": "22:00",
+      "end": "24:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "28",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "44",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Проект Решения органа О составе, сроках и применении",
+      "alias": "Проект Решения органа О составе, сроках и применении ...",
+      "type": "внутренний",
+      "start": "22:00",
+      "end": "24:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "29",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "44",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Проект Решения органа О формировании и начале их функционирования",
+      "alias": "Проект Решения органа О формировании и начале их функционирования ...",
+      "type": "внутренний",
+      "start": "22:00",
+      "end": "24:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "30",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "44",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Проект Решения органов О структуре и штате",
+      "alias": "Проект Решения органов О структуре и штате ...",
+      "type": "внутренний",
+      "start": "22:00",
+      "end": "24:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "31",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "44",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Проект Решения органа О руководителе",
+      "alias": "Проект Решения органа О руководителе ...",
+      "type": "внутренний",
+      "start": "22:00",
+      "end": "24:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "32",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "49",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Проект Решения органа Об оказании технической помощи контрагенту",
+      "alias": "Проект Решения органа Об оказании технической помощи ...",
+      "type": "внутренний",
+      "start": "22:00",
+      "end": "24:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    },
+    {
+      "id": "33",
+      "eventId": "02",
+      "sectionsId": "02",
+      "receivedTime": [
+        {
+          "ctragtId": "50",
+          "received": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "deliveryTime": [
+        {
+          "ctragtId": "01",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        },
+        {
+          "ctragtId": "02",
+          "delivery": "",
+          "executed": [],
+          "checkPlan": ""
+        }
+      ],
+      "title": "Проект Решения органа О фонде денежных средств по обеспечению функционирования",
+      "alias": "Проект Решения органа О фонде денежных средств...",
+      "type": "внутренний",
+      "start": "22:00",
+      "end": "24:00",
+      "completed": false,
+      "everydayCurrentPeriod": "",
+      "everydayTimePresents": []
+    }
+  ],
+  "events": [
+    {
+      "id": "01",
+      "title": "Организация развертывания и функционирования, перевод на усиленный режим работы",
+      "alias": "Организация развертывания и перевод на усиленный режим работы ...",
+      "start": "00:10",
+      "duration": "05:00"
+    },
+    {
+      "id": "02",
+      "title": "Подготовка группами Центра предложений в проекты решений органов и разработка документов",
+      "alias": "Подготовка группами Центра предложений и разработка документов ...",
+      "start": "05:00",
+      "duration": "24:00"
+    }
+  ]
+}

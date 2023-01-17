@@ -1,0 +1,31 @@
+
+    @font-face {
+    font-family: 'Digital-7 Mono Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Digital-7 Mono Italic'), url('digital-7 (mono italic).woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Digital-7 Mono Mono';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Digital-7 Mono Mono'), url('digital-7 (mono).woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Digital-7 Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Digital-7 Regular'), url('digital-7.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Digital-7 Italic Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Digital-7 Italic Italic'), url('digital-7 (italic).woff') format('woff');
+    }
